@@ -1,0 +1,39 @@
+
+  body{
+   /* background-image: url('record.jpg');
+    background-blend-mode: multiply;
+   background-size:500px 1000px;
+    */  
+    background:url(	'record.jpg'),rgb(59, 57, 57);
+    background-size: 1000px 500px;
+    background-position:center ; 
+    background-blend-mode:multiply;
+    text-align:center;
+  }  
+ table caption{
+    color:red; 
+    font-size:20px;
+    font-weight:Bold;
+}
+table{
+    text-align:center;
+    color:white;
+    
+}
+
+th,td{
+  
+    width:10%;
+}
+
+h1{
+    color:burlywood;
+    
+}
+h2{
+    color:chartreuse;
+}
+
+h3{
+    color: darkcyan;
+}

@@ -1,0 +1,179 @@
+*{
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+/* Navigation bar */
+
+.navbar a.active{
+    color: rgb(184, 37, 37);
+    text-decoration: underline;
+}
+.navbar{
+    background-color:rgb(27, 26, 26);
+    border-radius: 2px;
+    font-size:20px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    width: 95vw;
+    height: 52px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 0px 20px 5px;
+}
+.navbar li a{
+    padding: 0px 1.5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.float{
+    margin-left: 5%;
+}
+
+.part3{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.duty{
+    border: 2px solid rgb(55, 58, 255);
+    height: 453px;
+    width: 400px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px 70px 20px 5px;
+    background-image:url('https://wallpapertag.com/wallpaper/full/3/f/5/680283-scientific-dna-wallpapers-2018-2048x1536-large-resolution.jpg');
+
+}
+.steps{
+    border: 2px solid rgb(55, 58, 255);
+    height: 453px;
+    width: 400px;
+    text-align: center;
+    line-height: 30px;
+    margin: 20px 40px 20px 70px;
+    background-image:url('https://wallpapertag.com/wallpaper/full/3/f/5/680283-scientific-dna-wallpapers-2018-2048x1536-large-resolution.jpg');
+}
+.start{
+    color: rgb(253, 255, 163);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 0.2rem;
+}
+.container div.item{
+    height: 450px;
+    width: 400px;
+    background-image:url('http://blogs.jpmsonline.com/wp-content/uploads/2013/01/heart.jpg');
+    color: white;
+    font-weight: bold;
+    position: center;
+    opacity: 0.8;
+    border: 2px solid rgb(255, 55, 55);
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px 10px 10px 10px;
+    line-height: 25px;
+}
+
+.public{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 4px;
+    margin: 40px 20px 20px 90px;
+}
+.public div.item{
+    height: 95px;
+    width: 250px;
+    background-color: rgb(143, 52, 196);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    margin: 5px 0px 50px 0px;
+    padding: 15px 7px 7px 7px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.public div.item:hover{
+    background-color:rgb(104, 34, 145);
+}
+
+.icons{
+    margin-left: 8.5%;
+}
+.preview{
+    display: inline-block;
+    padding: 8px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: k2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    filter: hue-rotate(220deg);
+    background-color: rgb(172, 30, 37);
+    margin-left: 160px;
+    margin-bottom: 100px;
+
+
+}
+.preview:hover{
+    height: 250px;
+    width: 250px;
+    transform: scale(1);
+    border-radius: 10%;
+    filter: hue-rotate(220deg);
+    background-color: rgb(172, 30, 37);
+}
+
+
+
+/* Footer section */
+th{
+    font-size:20px;
+}
+td{
+    font-size:17px;
+}
+td,th{
+ width:185px;
+ height:25px; 
+ text-align:center;
+ padding:0% 1% 0% 1%;  
+}
+.foobar{
+    background-color: rgb(27, 26, 26);
+    color:white;
+    margin: 13px 10px;
+    padding: 25px 3px;
+}
+
+.last a:hover{
+opacity: 0.5;
+}
