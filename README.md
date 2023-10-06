@@ -1,5 +1,5 @@
 # Covid-Website
-This website is designed for social cause to help people in covid times.
+This website is designed for social cause to help people in covid-19 times.
 
 # Tech Stack
 1) Front-end : HTML, CSS, Javascript
