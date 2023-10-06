@@ -1,9 +1,9 @@
 # Covid-Website
-This website is designed for social cause to help people in covid-19 times.
+This website is designed for social causes to help people in covid-19 times.
 
 # Tech Stack
-1) Front-end : HTML, CSS, Javascript
-2) Back-end : MySQL, PHP
+1) Front-end: HTML, CSS, Javascript
+2) Back-end: MySQL, PHP
 
 ![image](https://user-images.githubusercontent.com/85828838/214269077-3d7b072b-91d8-46f8-aa17-bd1c6629dab5.png)
 
